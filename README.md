@@ -129,19 +129,15 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
-
-![Screenshot 2024-10-26 092715](https://github.com/user-attachments/assets/fe5c75ee-3d1a-4003-88e9-94d959b1c529)
+![image](https://github.com/user-attachments/assets/08f6272a-ac72-4387-89b7-0f534cac725e)
 
 ### Fig 2: Invoke the Cadence Environment
 
 To Launch Simulation tool 
 
 •linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
-
 or
-
 •linux:/> nclaunch& // On subsequent calls to NCVERILOG 
-
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
@@ -153,7 +149,7 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option 
 
-![Screenshot 2024-10-26 092753](https://github.com/user-attachments/assets/7562793a-e61a-4e76-bf34-4058344e8f43)
+![image](https://github.com/user-attachments/assets/23bf9234-8255-4d0f-ae2c-a0da484809e5)
 
 ### Fig 4:cds.lib file Creation
 
@@ -176,8 +172,8 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![image](https://github.com/user-attachments/assets/3d59b7f8-af41-492d-ad8f-8a4c4064c191)
 
-![Screenshot 2024-10-26 092824](https://github.com/user-attachments/assets/07224d0f-0aaf-41ff-bad5-cb9668ad3ff3)
 
 ### Fig 6: Nclaunch Window
 
